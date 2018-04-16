@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Musical Structure</string>
     <string name="header_text_explore">Explore</string>
+    <string name="title_now_playing">Now Playing</string>
+    <string name="now_playing_artist">Artist</string>
+    <string name="now_playing_song">Song name</string>
+    <string name="now_playing_album">Album name</string>
+    <string name="now_playing_touch_text">Hint: Touch the artist name for more information</string>
+    <string name="activity_info">Info</string>
+    <string name="activity_explore">Explore</string>
 </resources>
