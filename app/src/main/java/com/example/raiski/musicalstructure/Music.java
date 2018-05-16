@@ -6,11 +6,13 @@ public class Music {
 	private String mArtist;
 	private String mSong;
 	private String mAlbum;
+	private String mArtistInfo;
 
-	public Music(String artist, String song, String album) {
+	public Music(String artist, String song, String album, String artistInfo) {
 		mArtist = artist;
 		mAlbum = album;
 		mSong = song;
+		mArtistInfo = artistInfo;
 	}
 
 	public String getArtist() {
@@ -23,6 +25,10 @@ public class Music {
 
 	public String getAlbum() {
 		return mAlbum;
+	}
+
+	public String getArtistInfo() {
+		return mArtistInfo;
 	}
 
 }
